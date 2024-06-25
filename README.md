@@ -1,40 +1,75 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # rn-assignment5-11333031
 =======
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+=======
+# React Native Assignment 5 - Mobile Application Development
+>>>>>>> f2005f4 (done)
 
-# Getting Started
+This repository hosts the implementation for Assignment 5 of the DCIT202 Mobile Application Development course. The app includes bottom tab navigation with screens for Home, MyCards, Statistics, and Settings, along with a feature to switch between light and dark themes.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Table of Contents
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Commit History](#commit-history)
 
-## Step 1: Start the Metro Server
+## Description
+This React Native application incorporates the following features:
+- Bottom tab navigation with four main screens: Home, MyCards, Statistics, and Settings.
+- A context-based light and dark theme switcher.
+- Custom components and styling to closely follow the provided UI design.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Features
+1. **Bottom Tab Navigation**: Utilizes `@react-navigation/bottom-tabs` to implement tab navigation.
+2. **Theme Switching**: Users can toggle between light and dark themes using a context-based approach.
+3. **Custom Components and Styling**: Each screen is styled to match the provided UI mockup, featuring custom components throughout the application.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Screenshots
+![Light Theme](../light1.jpeg)
+![Light Theme](../light2.jpeg)
+![Dark Theme](../dark1.jpeg)
+![Dark Theme](../dark2.jpeg)
 
-```bash
-# using npm
-npm start
+## Setup and Installation
+To set up and run this project locally, follow these steps:
 
-# OR using Yarn
-yarn start
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/rn-assignment5-ID.git
+    cd rn-assignment5-ID
+    ```
 
-## Step 2: Start your Application
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+3. Start the application:
+    ```bash
+    npm start
+    ```
 
-### For Android
+## Usage
+- **Navigation**: Use the bottom tab navigator to switch between the Home, MyCards, Statistics, and Settings screens.
+- **Theme Switching**: Go to the Settings screen and use the toggle switch to change between light and dark themes.
 
-```bash
-# using npm
-npm run android
+### Screens Description:
+1. **Home Screen**: Displays a welcome message styled according to the current theme.
+2. **MyCards Screen**: Shows placeholder text, styled based on the current theme.
+3. **Statistics Screen**: Shows placeholder text, styled based on the current theme.
+4. **Settings Screen**: Allows users to switch between light and dark themes and contains other placeholder settings.
 
-# OR using Yarn
-yarn android
-```
+## Commit History
+- **Initial Commit**: Set up the project structure and installed necessary dependencies.
+- **Bottom Tab Navigation**: Implemented bottom tab navigation with Home, MyCards, Statistics, and Settings screens.
+- **Theme Context Setup**: Added ThemeContext and ThemeProvider for theme management.
+- **Screen Styling**: Styled all screens to match the provided UI mockup.
+- **Theme Switching Feature**: Enabled theme switching functionality on the Settings screen.
 
+<<<<<<< HEAD
 ### For iOS
 
 ```bash
@@ -81,3 +116,7 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 >>>>>>> 811180c (Initial commit)
+=======
+## Conclusion
+This app showcases the creation of a mobile application with bottom tab navigation and theme switching capabilities. It utilizes React Native's context API to manage themes, providing a consistent user experience across different screens.
+>>>>>>> f2005f4 (done)
