@@ -9,10 +9,11 @@ This repository hosts the implementation for Assignment 5 of the DCIT202 Mobile 
 
 ## Table of Contents
 - [Description](#description)
-- [Screenshots](#screenshots)
+
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Commit History](#commit-history)
+- Screenshots
 
 ## Description
 This React Native application incorporates the following features:
@@ -25,11 +26,6 @@ This React Native application incorporates the following features:
 2. **Theme Switching**: Users can toggle between light and dark themes using a context-based approach.
 3. **Custom Components and Styling**: Each screen is styled to match the provided UI mockup, featuring custom components throughout the application.
 
-## Screenshots
-![Light Theme](../light1.jpeg)
-![Light Theme](../light2.jpeg)
-![Dark Theme](../dark1.jpeg)
-![Dark Theme](../dark2.jpeg)
 
 ## Setup and Installation
 To set up and run this project locally, follow these steps:
@@ -118,6 +114,7 @@ To learn more about React Native, take a look at the following resources:
 ## Conclusion
 This app showcases the creation of a mobile application with bottom tab navigation and theme switching capabilities. It utilizes React Native's context API to manage themes, providing a consistent user experience across different screens.
 >>>>>>> f2005f4 (done)
+# Screenshots
 ![theme1](dark1.jpeg)
 ![theme2](dark2.jpeg)
 ![theme3](light1.jpeg)
