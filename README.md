@@ -118,3 +118,7 @@ To learn more about React Native, take a look at the following resources:
 ## Conclusion
 This app showcases the creation of a mobile application with bottom tab navigation and theme switching capabilities. It utilizes React Native's context API to manage themes, providing a consistent user experience across different screens.
 >>>>>>> f2005f4 (done)
+![theme1](dark1.jpeg)
+![theme2](dark2.jpeg)
+![theme3](light1.jpeg)
+![theme4](light2.jpeg)
